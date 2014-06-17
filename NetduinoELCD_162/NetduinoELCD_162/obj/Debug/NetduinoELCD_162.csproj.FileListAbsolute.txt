@@ -27,3 +27,33 @@ c:\users\philippe\documents\visual studio 2010\Projects\NetduinoELCD_162\Netduin
 c:\users\philippe\documents\visual studio 2010\Projects\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\NetduinoELCD_162.exe
 c:\users\philippe\documents\visual studio 2010\Projects\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\NetduinoELCD_162.pdb
 C:\Users\Philippe\documents\visual studio 2010\Projects\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\le\NetduinoELCD_162.exe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\be\NetduinoELCD_162.exe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\le\NetduinoELCD_162.pdb
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\be\NetduinoELCD_162.pdb
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\NetduinoELCD_162.exe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\NetduinoELCD_162.pdb
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\le\NetduinoELCD_162.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\le\NetduinoELCD_162.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\be\NetduinoELCD_162.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\be\NetduinoELCD_162.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\LE\SecretLabs.NETMF.Hardware.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\BE\SecretLabs.NETMF.Hardware.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\LE\SecretLabs.NETMF.Hardware.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\BE\SecretLabs.NETMF.Hardware.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\SecretLabs.NETMF.Hardware.dll
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\SecretLabs.NETMF.Hardware.pdb
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\NetduinoELCD_162.csprojResolveAssemblyReference.cache
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\be\NetduinoELCD_162.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\be\NetduinoELCD_162.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\le\NetduinoELCD_162.pe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\le\NetduinoELCD_162.pdbx
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\NetduinoELCD_162.exe
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\NetduinoELCD_162\obj\Debug\NetduinoELCD_162.pdb
