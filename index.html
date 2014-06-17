@@ -112,13 +112,47 @@
 		<td><strong>SerialELCD162</strong>(<strong>string</strong> <em>com</em>, <strong>int</strong> <em>baudrate</em>, <strong>Parity</strong> <em>parite</em>, <strong>int</strong> <em>bits</em>, <strong>StopBits</strong> <em>stopb</em>)</td>
 		<td>Initialise un objet "Afficheur LCD série" avec des paramètres de communication personalisés . <br>
 		<ul>
-		  <li><strong>com</strong>: port série de la carte Netduino <strong>(SerialPorts.COMx [x=1, 2, 3 ou 4])</strong>Privilégier les ports COM2 et COM3 sur la carte TinkerKit</li>
+		  <li><strong>com</strong>: port série sélectionné sur la carte Netduino <strong>(SerialPorts.COMx [x=1, 2, 3 ou 4])</strong> Privilégier les ports COM2 et COM3 avec la carte TinkerKit.</li>
 		  <li><strong>baudrate</strong>: Débit binaire <strong>(19200b/s ou 4800b/s)</strong></li>
-		  <li><strong>parite</strong>: type de parite <strong>(System.IO.Ports.Parity.x [x=Even, Mark, None, Odd ou Space)</strong> </li>
+		  <li><strong>parite</strong>: type de parite <strong>(System.IO.Ports.Parity.x [x=Even, Mark, None, Odd ou Space])</strong> </li>
 		  <li><strong>bits</strong>: nombre de bits des données <strong>(7 ou 8)</strong> </li>
-		  <li><strong>stopb</strong>: nombre de bits de stop <strong>(System.IO.Ports.StopBits.x [x=None, One, OnePointFive ou Two)</strong> </li>
+		  <li><strong>stopb</strong>: nombre de bits de stop <strong>(System.IO.Ports.StopBits.x [x=None, One, OnePointFive ou Two])</strong> </li>
 		</ul>
 		</td>
+	</tr>
+</table>
+<p><strong>Méthodes publiques</strong></p>
+<table>
+	<tr>
+		<td></td>
+		<td><strong>Syntaxe</strong></td>
+		<td><strong>Description</strong></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+		<td><strong>void ClearScreen</strong>()</td>
+		<td><strong>Efface</strong> l'écran LCD et positionne le curseur en (0,0).<br/></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+		<td><strong>void CursorOff</strong>()</td>
+		<td><strong>Désactivation</strong> du curseur.<br/></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+			<td><strong>void CursorOn</strong>()</td>
+		<td><strong>Désactivation</strong> du curseur.<br/></td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+		<td><strong>void Init</strong>()</td>
+		<td><strong>Initialisation</strong> de l'afficheur. A appliquer avant l'envoi de caractères</td>
+		</td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
+		<td><strong>void PutString</strong>(<strong>string</strong> <em>text</em>)</td>
+		<td><strong>text:</strong> chaîne de caractères codés en ASCII</td>
 	</tr>
 </table>
       </section>
