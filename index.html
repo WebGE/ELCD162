@@ -94,6 +94,33 @@
 	<li><strong>Transmettre</strong> des données avec la méthode <strong>PutString</strong></li>
 </ol>
 <hr>
+<p><strong>Constructeur</strong></p>
+<table>
+	<tr>
+	 	<td></td>
+		<td><strong>Syntaxe</strong></td>
+		<td><strong>Description</strong></td>
+	</tr>
+		<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+		<td><strong>SerialELCD162</strong>()</td>
+		<td>Initialise un objet "Afficheur LCD série". Avec les paramètres: <strong></strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>).
+		</td>
+	</tr>
+	<tr>
+		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
+		<td><strong>SerialELCD162</strong>(<strong>string</strong> <em>com</em>, <strong>int</strong> <em>baudrate</em>, <strong>Parity</strong> <em>parite</em>, <strong>int</strong> <em>bits</em>, <strong>StopBits</strong> <em>stopb</em>)</td>
+		<td>Initialise un objet "Carte EasyDriver". Contrôle de la direction, du nombre de pas et fonction Sleep/WakeUp. <br>
+		<ul>
+		  <li><strong>com</strong>: port série de la carte Netduino <strong>(SerialPorts.COMx [x=1, 2, 3 ou 4])</strong>Privilégier les ports COM2 et COM3 sur la carte TinkerKit</li>
+		  <li><strong>baudrate</strong>: Débit binaire <strong>(19200b/s ou 4800b/s)</strong></li>
+		  <li><strong>parite</strong>: type de parite <strong>(System.IO.Ports.Parity.x [x=Even, Mark, None, Odd ou Space)</strong> </li>
+		  <li><strong>bits</strong>: nombre de bits des données <strong>(7 ou 8)</strong> </li>
+		  <li><strong>stopb</strong>: nombre de bits de stop <strong>(System.IO.Ports.StopBits.x [x=None, One, OnePointFive ou Two)</strong> </li>
+		</ul>
+		</td>
+	</tr>
+</table>
       </section>
     </div>
 
