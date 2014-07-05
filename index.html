@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Contrôler un afficheur LCD avec une liaison série</title>
+    <title>ELCD162</title>
   </head>
 
   <body>
@@ -104,13 +104,13 @@
 		<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 		<td><strong>SerialELCD162</strong>()</td>
-		<td>Initialise un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>).
+		<td>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>).
 		</td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 		<td><strong>SerialELCD162</strong>(<strong>string</strong> <em>com</em>, <strong>int</strong> <em>baudrate</em>, <strong>Parity</strong> <em>parite</em>, <strong>int</strong> <em>bits</em>, <strong>StopBits</strong> <em>stopb</em>)</td>
-		<td>Initialise un objet "Afficheur LCD série" avec des paramètres de communication personalisés . <br>
+		<td>Instancie un objet "Afficheur LCD série" avec des paramètres de communication personalisés . <br>
 		<ul>
 		  <li><strong>com</strong>: port série sélectionné sur la carte Netduino <strong>(SerialPorts.COMx [x=1, 2, 3 ou 4]).</strong> <br>Privilégier les ports COM2 et COM3 avec la carte TinkerKit.</li>
 		  <li><strong>baudrate</strong>: Débit binaire <strong>(19200b/s ou 4800b/s)</strong></li>
