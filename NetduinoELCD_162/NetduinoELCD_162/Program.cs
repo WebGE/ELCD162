@@ -10,7 +10,7 @@ using Serial;
 namespace NetduinoELCD_162
 {
     public class Program
-    {
+    { // Page web http://webge.github.io/ELCD162/
         public static void Main()
         {  // Pour accéder au COM2, relier l'afficheur au connecteur KK O5 de la carte Tinkerkit
           int counter = 0;
