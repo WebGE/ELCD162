@@ -11,7 +11,7 @@ using SecretLabs.NETMF.Hardware.Netduino;
 
 namespace Serial
 {
-    class SerialELCD162 : SerialPort
+    public class SerialELCD162 : SerialPort
     {
         /// <summary>
         /// Built a COM port with COM2, 19200, None, 8, 1 stop
