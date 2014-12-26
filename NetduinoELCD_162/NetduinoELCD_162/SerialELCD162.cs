@@ -2,16 +2,10 @@ using System;
 using System.Text;
 using System.Threading;
 using System.IO.Ports;
-using Microsoft.SPOT;
-using Microsoft.SPOT.Hardware;
-using SecretLabs.NETMF.Hardware;
-
-using SecretLabs.NETMF.Hardware.Netduino;
-
 
 namespace Serial
 {
-    public class SerialELCD162 : SerialPort
+    class SerialELCD162 : SerialPort
     {
         /// <summary>
         /// Built a COM port with COM2, 19200, None, 8, 1 stop
