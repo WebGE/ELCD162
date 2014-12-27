@@ -3,14 +3,14 @@ using System.Text;
 using System.Threading;
 using System.IO.Ports;
 
-namespace Serial
+namespace ToolBoxes
 {
-    class SerialELCD162 : SerialPort
+    class ELCD162 : SerialPort
     {
         /// <summary>
         /// Built a COM port with COM2, 19200, None, 8, 1 stop
         /// </summary>
-        public SerialELCD162(String com="COM2", int baudrate=19200, Parity parite = Parity.None, int bits = 8, StopBits stopb = StopBits.One )
+        public ELCD162(String com="COM2", int baudrate=19200, Parity parite = Parity.None, int bits = 8, StopBits stopb = StopBits.One )
             : base(com, baudrate, parite, bits,stopb)
         {
         }

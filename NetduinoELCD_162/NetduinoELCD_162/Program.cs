@@ -1,5 +1,5 @@
 ﻿using System.Threading;
-using Serial;
+using ToolBoxes;
 
 namespace TestNetduinoELCD_162
 {
@@ -13,21 +13,21 @@ namespace TestNetduinoELCD_162
             var counter = 0;
 
             // Création d'un objet afficheur série ELCD-162 (par défaut: COM2, 19200, None, 8, 1)
-            SerialELCD162 ELCD162 = new SerialELCD162();
+            ELCD162 display = new ELCD162();
 
             // Initialisation du port série et de l’afficheur
-            ELCD162.Init(); ELCD162.ClearScreen(); ELCD162.CursorOff();
+            display.Init(); display.ClearScreen(); display.CursorOff();
 
             while (true)
             {
                 // Création d'une chaine de caractères
                 string counter_string = "Compte:" + counter.ToString();
                 // Envoie des octets au port série de l'afficheur
-                ELCD162.PutString(counter_string);
+                display.PutString(counter_string);
                 // Incrémentation du compteur
                 counter++;
                 // Attente de 1s entre deux envois
-                Thread.Sleep(1000); ELCD162.ClearScreen();
+                Thread.Sleep(1000); display.ClearScreen();
             }
         }
     }
