@@ -5,7 +5,7 @@ using System.IO.Ports;
 
 namespace ToolBoxes
 {
-    class ELCD162 : SerialPort
+    public class ELCD162 : SerialPort
     {
         /// <summary>
         /// Built a COM port with COM2, 19200, None, 8, 1 stop
