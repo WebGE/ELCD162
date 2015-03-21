@@ -21,7 +21,7 @@ namespace TestNetduinoELCD_162
             while (true)
             {
                 // Création d'une chaine de caractères
-                string counter_string = "Compte:" + counter.ToString();
+                var counter_string = "Compte:" + counter.ToString();
                 // Envoie des octets au port série de l'afficheur
                 display.PutString(counter_string);
                 // Incrémentation du compteur

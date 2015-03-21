@@ -26,10 +26,10 @@ namespace ToolBoxes
         }
 
         /// <summary>
-        /// Convert string in UTF8 end push
+        /// Convert string in UTF8 and push
         /// </summary>
         /// <param name="str"></param>
-        public void PutString(string str) // Pour Comfile Ethis-162
+        public void PutString(string str) // For Comfile Ethis-162
         {
             byte [] buffer = Encoding.UTF8.GetBytes(str);
             this.WriteByte(0xA2);
@@ -39,9 +39,9 @@ namespace ToolBoxes
         }
 
         /// <summary>
-        /// Clear the screen
+        /// Clear screen
         /// </summary>
-        public void ClearScreen() // Pour Comfile Ethis-162
+        public void ClearScreen() //  For Comfile ELCD-162
         {
             this.WriteByte(0xA3);
             this.WriteByte(0x01);
@@ -49,9 +49,9 @@ namespace ToolBoxes
         }
 
         /// <summary>
-        /// Put the cursor on
+        /// Put cursor on
         /// </summary>
-        public void CursorOn()  // Pour Comfile Ethis-162
+        public void CursorOn()  //  For Comfile ELCD-162
         {
             this.WriteByte(0xA3);
             this.WriteByte(0x0E);
@@ -59,9 +59,9 @@ namespace ToolBoxes
         }
 
         /// <summary>
-        /// Put the cursor off
+        /// Put cursor off
         /// </summary>
-        public void CursorOff() // Pour Comfile Ethis-162
+        public void CursorOff() // For Comfile ELCD-162
         {
             this.WriteByte(0xA3);
             this.WriteByte(0x0C);
@@ -69,11 +69,11 @@ namespace ToolBoxes
         }
 
         /// <summary>
-        /// Put the cursor on (x,y)
+        /// Put cursor on (x,y)
         /// </summary>
         /// <param name="x_pos"></param>
         /// <param name="y_pos"></param>
-        public void SetCursor(byte x_pos, byte y_pos) // Pour Comfile Ethis-162
+        public void SetCursor(byte x_pos, byte y_pos) //  For Comfile ELCD-162
         {
             this.WriteByte(0xA1);
             this.WriteByte(x_pos);
