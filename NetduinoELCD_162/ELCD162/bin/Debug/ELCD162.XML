@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ELCD162</name>
+    </assembly>
+    <members>
+        <member name="T:ToolBoxes.ELCD162">
+            <summary>
+            ELCD162
+            </summary>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.#ctor(System.String,System.Int32,System.IO.Ports.Parity,System.Int32,System.IO.Ports.StopBits)">
+            <summary>
+            Built a COM port with COM2, 19200, None, 8, 1 stop
+            </summary>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.Init">
+            <summary>
+            Open the communication and send Initiate Byte 0xA
+            </summary>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.PutString(System.String)">
+            <summary>
+            Convert string in UTF8 and push
+            </summary>
+            <param name="str"></param>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.ClearScreen">
+            <summary>
+            Clear screen
+            </summary>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.CursorOn">
+            <summary>
+            Put cursor on
+            </summary>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.CursorOff">
+            <summary>
+            Put cursor off
+            </summary>
+        </member>
+        <member name="M:ToolBoxes.ELCD162.SetCursor(System.Byte,System.Byte)">
+            <summary>
+            Put cursor on (x,y)
+            </summary>
+            <param name="x_pos"></param>
+            <param name="y_pos"></param>
+        </member>
+    </members>
+</doc>

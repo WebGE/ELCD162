@@ -1,21 +1,29 @@
 using System;
+using System.IO.Ports;
 using System.Text;
 using System.Threading;
-using System.IO.Ports;
 
 namespace ToolBoxes
 {
+    /// <summary>
+    /// ELCD162
+    /// </summary>
     public class ELCD162 : SerialPort
     {
-        /// <summary>
+       /// <summary>
         /// Built a COM port with COM2, 19200, None, 8, 1 stop
-        /// </summary>
+       /// </summary>
+       /// <param name="com"></param>
+       /// <param name="baudrate"></param>
+       /// <param name="parite"></param>
+       /// <param name="bits"></param>
+       /// <param name="stopb"></param>
         public ELCD162(String com="COM2", int baudrate=19200, Parity parite = Parity.None, int bits = 8, StopBits stopb = StopBits.One )
             : base(com, baudrate, parite, bits,stopb)
         {
         }
 
-        /// <summary>
+        /// <summary> 
         /// Open the communication and send Initiate Byte 0xA
         /// </summary>
         public void Init()

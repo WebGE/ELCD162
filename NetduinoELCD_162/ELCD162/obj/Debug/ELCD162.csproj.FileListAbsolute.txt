@@ -14,5 +14,4 @@ C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\obj\Debug\le
 C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\obj\Debug\le\ELCD162.pdbx
 C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\obj\Debug\ELCD162.dll
 C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\obj\Debug\ELCD162.pdb
-C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\obj\Debug\ELCD162.csprojResolveAssemblyReference.cache
-C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\bin\Debug\ELCD162.XML

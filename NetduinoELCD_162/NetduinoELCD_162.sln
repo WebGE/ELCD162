@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ELCD162", "ELCD162\ELCD162.csproj", "{B4CF527D-0568-4054-AAB7-75A52B0FA341}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestELCD_162", "TestELCD_162\TestELCD_162.csproj", "{4B4EACEB-2D27-483B-9522-7E2EEF94D195}"

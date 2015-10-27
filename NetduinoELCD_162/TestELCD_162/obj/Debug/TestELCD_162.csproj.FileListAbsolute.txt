@@ -22,3 +22,5 @@ C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\TestELCD_162\obj\Deb
 C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\TestELCD_162\obj\Debug\le\NetduinoELCD_162.pdbx
 C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\TestELCD_162\obj\Debug\NetduinoELCD_162.exe
 C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\TestELCD_162\obj\Debug\NetduinoELCD_162.pdb
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\TestELCD_162\bin\Debug\NetduinoELCD_162.XML
+C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\TestELCD_162\bin\Debug\ELCD162.xml

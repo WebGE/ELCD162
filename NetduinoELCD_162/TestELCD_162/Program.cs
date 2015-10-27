@@ -8,7 +8,7 @@ namespace TestNetduinoELCD_162
         public static void Main()
         {// Documentation de la classe SerialELCD162 http://webge.github.io/ELCD162/
             // Pour accéder au COM2, relier l'afficheur au connecteur O5 de la carte Tinkerkit
-            
+            // Pour accéder au COM1, relier l'afficheur au connecteur SERIAL de la carte Tinkerkit avec un adaptateur 3->4
             // Valeur à afficher
             var counter = 0;
 
