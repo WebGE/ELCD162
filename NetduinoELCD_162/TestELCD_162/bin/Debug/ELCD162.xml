@@ -4,13 +4,23 @@
         <name>ELCD162</name>
     </assembly>
     <members>
+        <member name="T:ToolBoxes.ELCD162">
+            <summary>
+            ELCD162
+            </summary>
+        </member>
         <member name="M:ToolBoxes.ELCD162.#ctor(System.String,System.Int32,System.IO.Ports.Parity,System.Int32,System.IO.Ports.StopBits)">
             <summary>
             Built a COM port with COM2, 19200, None, 8, 1 stop
             </summary>
+            <param name="com"></param>
+            <param name="baudrate"></param>
+            <param name="parite"></param>
+            <param name="bits"></param>
+            <param name="stopb"></param>
         </member>
         <member name="M:ToolBoxes.ELCD162.Init">
-            <summary>
+            <summary> 
             Open the communication and send Initiate Byte 0xA
             </summary>
         </member>

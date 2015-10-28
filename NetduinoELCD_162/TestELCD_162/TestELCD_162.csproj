@@ -44,17 +44,17 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ELCD162\ELCD162.csproj">
-      <Project>{B4CF527D-0568-4054-AAB7-75A52B0FA341}</Project>
-      <Name>ELCD162</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Doc_A_Consulter\ELCD162.pdf" />
     <None Include="Doc_A_Consulter\HD44780.pdf" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Doc_A_Consulter\index.html" />
     <Content Include="Lisez-moi.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ELCD162\ELCD162.csproj">
+      <Project>{B4CF527D-0568-4054-AAB7-75A52B0FA341}</Project>
+      <Name>ELCD162</Name>
+    </ProjectReference>
   </ItemGroup>
 </Project>
