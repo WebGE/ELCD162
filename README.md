@@ -1,7 +1,7 @@
 ELCD162
 =======
 
-Tags: ELCD 162, Netduino plus 2, FEZ PANDA III, C#, Visual Studio.
+Tags: ELCD 162, Netduino, FEZ PANDA III, C#, Visual Studio.
 
 Target: Netduino plus 2, Netduino 3, FEZ PANDA III.
 
