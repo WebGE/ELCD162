@@ -108,7 +108,7 @@
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 		<td><strong>ELCD162</strong>()</td>
 		<td>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>).
-		<br/><strong>Exemple</strong>: ELCD162 lcd = new ELCD162();</td>
+		<br/><br/><strong>Exemple</strong>: ELCD162 lcd = new ELCD162();</td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
@@ -135,7 +135,7 @@
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 		<td><strong>void ClearScreen</strong>()</td>
 		<td>
-			<strong>Efface</strong> le LCD et positionne le curseur en (0,0).<br/>
+			<strong>Efface</strong> le LCD et positionne le curseur en (0,0).<br/><br/>
 			<strong>Exemple:</strong>lcd.ClearScreen();
 		</td>
 	</tr>
@@ -143,7 +143,7 @@
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 		<td><strong>void CursorOff</strong>()</td>
 		<td>
-			<strong>Désactivation</strong> du curseur.<br/>
+			<strong>Désactivation</strong> du curseur.<br/><br/>
 			<strong>Exemple:</strong>lcd.CursorOff();
 		</td>
 	</tr>
@@ -151,14 +151,14 @@
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 			<td><strong>void CursorOn</strong>()</td>
 		<td>
-			<strong>Activation</strong> du curseur.<br/>
+			<strong>Activation</strong> du curseur.<br/><br/>
 			<strong>Exemple:</strong>lcd.CursorOn();
 		</td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 		<td><strong>void Init</strong>()</td>
-		<td><strong>Initialisation</strong> de l'afficheur. <br> Toute première méthode à appliquer ! <br>
+		<td><strong>Initialisation</strong> de l'afficheur. <br> Toute première méthode à appliquer ! <br/><br/>
 			<strong>Exemple:</strong>lcd.Init();	
 		</td>
 	</tr>
@@ -166,7 +166,7 @@
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 		<td><strong>void PutString</strong>(<strong>string</strong> <em>text</em>)</td>
 		<td>
-			<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés en ASCII
+			<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés en ASCII<br/><br/>
 			<strong>Exemple:</strong>lcd.PutString("Afficheur");
 		</td>
 	</tr>
@@ -175,7 +175,7 @@
 		<td><strong>void SetCursor</strong>(<strong>byte</strong> <em>x</em>, <strong>byte</strong> <em>y</em>)</td>
 		<td>
 			<strong>Place le curseur</strong> à la position définie par x (0 à 19 suivant le nombre de caractères de l'écran) <br> et y (0 à 3 suivant le nombre de lignes).<br>
-			Si x=0 et y=0 le curseur sera situé en haut à gauche de l'écran.<br>
+			Si x=0 et y=0 le curseur sera situé en haut à gauche de l'écran.<br/><br/>
 			<strong>Exemple:</strong>lcd.StCursor(0,1); // Curseur sur le premier caractère de la deuxième ligne
 		</td>
 	</tr>
