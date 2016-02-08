@@ -72,11 +72,12 @@
 	</tr>
 </table>
 
-
 <ul>
 	<li><strong>Sites à consulter</strong>: <a href="http://netduino.com/netduinoplus2/specs.htm" target="_blank">Netduino</a>, <a href="http://www.netmf.com/" target="_blank">NETMF</a></li>
 	<li><strong>Distributeur</strong> : <a href="http://www.lextronic.fr/recherche.html?mots_cles=PRODUIT-ID29733" target="_blank">Lextronic</a></li>
 </ul>
+<hr/>
+<h3><a name="carte-netduino-plus-2" class="anchor" href="#carte-netduino-plus-2"><span class="octicon octicon-link"></span></a>Wiki Netduino sur WikiSpaces</h3>
 <hr/>
 <h3><a name="classe-easystepperdriver" class="anchor" href="#classe-easystepperdriver"><span class="octicon octicon-link"></span></a>Classe ELCD162</h3>
 <hr/>
@@ -108,7 +109,7 @@
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 		<td><strong>ELCD162</strong>()</td>
 		<td>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>).
-		<br/><br/><strong>Exemple</strong>: ELCD162 lcd = new ELCD162();</td>
+		<br/><br/><strong>Exemple</strong>: <em>ELCD162 lcd = new ELCD162();</em></td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
@@ -136,7 +137,7 @@
 		<td><strong>void ClearScreen</strong>()</td>
 		<td>
 			<strong>Efface</strong> le LCD et positionne le curseur en (0,0).<br/><br/>
-			<strong>Exemple:</strong>lcd.ClearScreen();
+			<strong>Exemple: </strong><em>lcd.ClearScreen();</em>
 		</td>
 	</tr>
 	<tr>
@@ -144,7 +145,7 @@
 		<td><strong>void CursorOff</strong>()</td>
 		<td>
 			<strong>Désactivation</strong> du curseur.<br/><br/>
-			<strong>Exemple:</strong>lcd.CursorOff();
+			<strong>Exemple: </strong><em>lcd.CursorOff();</em>
 		</td>
 	</tr>
 	<tr>
@@ -152,14 +153,14 @@
 			<td><strong>void CursorOn</strong>()</td>
 		<td>
 			<strong>Activation</strong> du curseur.<br/><br/>
-			<strong>Exemple:</strong>lcd.CursorOn();
+			<strong>Exemple: </strong><em>lcd.CursorOn();</em>
 		</td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_method_VS.png"></td>
 		<td><strong>void Init</strong>()</td>
 		<td><strong>Initialisation</strong> de l'afficheur. <br> Toute première méthode à appliquer ! <br/><br/>
-			<strong>Exemple:</strong>lcd.Init();	
+			<strong>Exemple: </strong><em>lcd.Init();	</em>
 		</td>
 	</tr>
 	<tr>
@@ -167,7 +168,7 @@
 		<td><strong>void PutString</strong>(<strong>string</strong> <em>text</em>)</td>
 		<td>
 			<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés en ASCII ou selon la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>
-			<strong>Exemple:</strong>lcd.PutString("Afficheur");
+			<strong>Exemple: </strong><em>lcd.PutString("Afficheur");</em>
 		</td>
 	</tr>
 	<tr>
@@ -176,7 +177,7 @@
 		<td>
 			<strong>Place le curseur</strong> à la position définie par x (0 à 19 suivant le nombre de caractères de l'écran) <br> et y (0 à 3 suivant le nombre de lignes).<br>
 			Si x=0 et y=0 le curseur sera situé en haut à gauche de l'écran.<br/><br/>
-			<strong>Exemple:</strong>lcd.StCursor(0,1); // Curseur sur le premier caractère de la deuxième ligne.
+			<strong>Exemple: </strong><em>lcd.StCursor(0,1);</em> // Curseur sur le premier caractère de la deuxième ligne.
 		</td>
 	</tr>
 </table>
