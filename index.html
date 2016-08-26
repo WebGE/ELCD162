@@ -91,10 +91,10 @@
 </ul>
 <hr/>
 <p><strong>Contenu du répertoire à télécharger</strong></p>
-<p> Le répertoire à télécharger (au format zip ou tar.gz) contient la solution <strong>NetduinoI2CLCD</strong> composée : </p>
+<p> Le répertoire à télécharger (au format zip ou tar.gz) contient la solution <strong>NetduinoELCD162</strong> composée : </p>
 <ul>
 	<li>Du projet <strong>ELCD162</strong> : le code de la classe <em>ELCD162</em>.</li>
-	<li>Du projet <strong>TestELCD162</strong> : un exemple d'utilisation de cette classe.</li>
+	<li>Du projet <strong>TestELCD_162</strong> : un exemple d'utilisation de cette classe.</li>
 </ul>
 <hr/>
 <p><strong>Utilisation</strong></p>
@@ -115,8 +115,8 @@
 		<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
 		<td><strong>ELCD162</strong>()</td>
-		<td>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>).
-		<br/><br/><strong>Exemple</strong>: <em>ELCD162 lcd = new ELCD162();</em></td>
+		<td>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>.
+		<br/>Exemple: <br/><em>ELCD162 lcd = new ELCD162();</em></td>
 	</tr>
 	<tr>
 		<td><img src="http://www.jetbrains.com/resharper/webhelp50/images/general_constructor_VS.png"></td>
@@ -175,7 +175,7 @@
 		<td><strong>void PutString</strong>(<strong>string</strong> <em>text</em>)</td>
 		<td>
 			<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés conformément à la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>
-			<strong>Exemple: </strong><em>lcd.PutString("Afficheur");</em>
+			Exemple: <br><em>lcd.PutString("Afficheur");</em>
 		</td>
 	</tr>
 	<tr>
@@ -184,7 +184,7 @@
 		<td>
 			<strong>Place le curseur</strong> à la position définie par x (0 à 19 suivant le nombre de caractères de l'écran) <br> et y (0 à 3 suivant le nombre de lignes).<br>
 			Si x=0 et y=0 le curseur sera situé en haut à gauche de l'écran.<br/><br/>
-			<strong>Exemple: </strong><em>lcd.SetCursor(0,1);</em> // Curseur sur le premier caractère de la deuxième ligne.
+			Exemple: <br><em>lcd.SetCursor(0,1);</em> // Curseur sur le premier caractère de la deuxième ligne.
 		</td>
 	</tr>
 </table>
