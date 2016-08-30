@@ -1,8 +1,12 @@
 ELCD162
 =======
 
-Tags: ELCD 162, Netduino, FEZ PANDA III, C#, Visual Studio.
+Tags: RS232, ELCD 162, Netduino, FEZ PANDA III, C#, Visual Studio.
 
-Target: Netduino plus 2, Netduino 3, FEZ PANDA III.
+Target: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA III.
 
-This library can be use to control the ELCD162 driver with Netduino+ V2 or newer and FEZ PANDA III. Code written in C# with Visual Studio 2013. Example test program.
+This library can be use to control the  <a href="http://www.lextronic.fr/P761-afficheur-serie-2-x-16-caracteres.html">ELCD162</a> driver with Netduino or FEZ PANDA III. 
+
+Code written in C# with Visual Studio 2013. 
+
+TestELCD_162: Example test program.
