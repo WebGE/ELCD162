@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <Assemblies>
+    <Item>C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\bin\Debug\ELCD162.dll</Item>
+  </Assemblies>
+  <DocFiles>
+    <Item>C:\Users\Philippe\Documents\GitHub\ELCD162\NetduinoELCD_162\ELCD162\bin\Debug\ELCD162.xml</Item>
+  </DocFiles>
+  <ReferencedAssemblies />
+  <ReferencedDocFiles />
+  <ReferenceDirectories>
+    <Item>C:\Program Files (x86)\Microsoft .NET Micro Framework\v4.3\Assemblies\be</Item>
+  </ReferenceDirectories>
+  <NamespaceSummaries />
+  <ExcludedElements />
+  <Settings>
+    <OutputDirectory>C:\Users\Philippe\Documents\doc</OutputDirectory>
+    <OverwritePreviousFiles>true</OverwritePreviousFiles>
+    <DocumentationTitle>A ForgeDoc Documented Class Library</DocumentationTitle>
+    <CreateLogFile>false</CreateLogFile>
+    <OutputFormats>Website, HtmlHelp</OutputFormats>
+    <ShowMissingNamespaces>false</ShowMissingNamespaces>
+    <ShowMissingSummaries>false</ShowMissingSummaries>
+    <ShowMissingTypeParams>false</ShowMissingTypeParams>
+    <ShowMissingParams>false</ShowMissingParams>
+    <ShowMissingReturns>false</ShowMissingReturns>
+    <ShowMissingValues>false</ShowMissingValues>
+    <WarnForMissingValues>true</WarnForMissingValues>
+    <DocumentInternals>false</DocumentInternals>
+    <DocumentPrivatesAndSealedProtecteds>false</DocumentPrivatesAndSealedProtecteds>
+    <DocumentExplicitInterfaceImplementations>false</DocumentExplicitInterfaceImplementations>
+    <DocumentExtensionMethods>true</DocumentExtensionMethods>
+    <DefaultLanguage>CSharp</DefaultLanguage>
+    <IsPreliminary>false</IsPreliminary>
+    <AutoDocumentConstructors>true</AutoDocumentConstructors>
+    <InheritDocumentation>true</InheritDocumentation>
+    <OutputLanguage>fr</OutputLanguage>
+    <CreateOverviewPage>true</CreateOverviewPage>
+    <ShowOverviewPageAsRootNode>false</ShowOverviewPageAsRootNode>
+    <OverviewNodeName>Overview</OverviewNodeName>
+    <CustomOverviewFile null="true" />
+    <MergeAssemblies>true</MergeAssemblies>
+    <HierarchicalNamespaces>false</HierarchicalNamespaces>
+    <ChildNestedTypes>false</ChildNestedTypes>
+    <DisplayNamespaceLabels>false</DisplayNamespaceLabels>
+    <Style>MSDN 2012</Style>
+    <CustomCssFile null="true" />
+    <ReplaceBuiltInCssFile>false</ReplaceBuiltInCssFile>
+    <OpenExternalLinksInNewPage>false</OpenExternalLinksInNewPage>
+    <UseGuidFilenames>false</UseGuidFilenames>
+    <FooterHtml></FooterHtml>
+    <ChmFileName>Documentation</ChmFileName>
+    <DeleteIntermediateFiles>true</DeleteIntermediateFiles>
+    <BinaryTOC>false</BinaryTOC>
+    <CreateIndex>true</CreateIndex>
+    <FullTextSearch>true</FullTextSearch>
+  </Settings>
+</Project>
