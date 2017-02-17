@@ -1,12 +1,22 @@
 ELCD162
 =======
 
-Tags: RS232, ELCD 162, Netduino, FEZ PANDA III, C#, Visual Studio.
+Source code of the ELCD162 <strong>NETMF class</strong> contained in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
-Target: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA III.
+This class is for a ELCD162 module.
 
-This library can be use to control the  <a href="http://www.lextronic.fr/P761-afficheur-serie-2-x-16-caracteres.html"  target="_blank">ELCD162</a> driver with Netduino or FEZ PANDA III. 
 
-Code written in C# with Visual Studio 2013. 
+<strong>Tags</strong>: RS232, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
-TestELCD_162: Example test program.
+<strong>Target</strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
+
+<strong>IDE</strong> : Visual Studio Community.
+
+<strong>Language</strong> : C#.
+
+<strong>Framework</strong> : .NETMF 4.3
+
+<hr>
+See <a href="http://webge.github.io/ELCD162/" target="_blank">ELCD162 GitHub Pages</a> too get started.
+
+Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
