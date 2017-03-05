@@ -210,7 +210,7 @@
 				{<br>
 				valeur = valeur + 0.11;<br>
 				lcd.PutString("Temperature = " + valeur.Tostring("F1"));<br>
-				 Thread.Sleep(100);<br>	
+				Thread.Sleep(100);<br>	
 				}
 			</em>
 			<hr>
@@ -225,7 +225,7 @@
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>ELCD162</strong>()</td>
 					<td>
-						<p>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>.</p><br/><br/>
+						<p>Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>.</p><br>
 						<p>Exemple: </p><br/><em>ELCD162 lcd = new ELCD162();</em>
 					</td>
 				</tr>
@@ -282,16 +282,9 @@
 					<td><strong>void PutString</strong>(<strong>string</strong> <em>text</em>)</td>
 					<td>
 						<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés conformément
-						à la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>						Exemple 1: <br><em>lcd.PutString("Afficheur");</em><br/><br/> Exemple 2: <br>
-						<em>
-							float temperature = 0;<br>	
-							ELCD162 lcd = new ELCD162();<br>
-							while(true)<br>
-							{<br>
-							temperature =<br>
-							lcd.PutString("Temperature = " + temperature);<br>
-						}
-					</em>
+						à la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>
+						<p>Exemple 1</p>: <br><em>lcd.PutString("Afficheur");</em><br/><br/>
+						<p>Exemple 2</p>: <br><em>lcd.PutString("Temperature = " + valeur.Tostring("F1"));</em>					
 					</td>
 				</tr>
 				<tr>
