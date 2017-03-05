@@ -199,7 +199,21 @@
 				<li><strong>Initialiser</strong> le LCD avec la méthode <strong>Init</strong>. </li>
 				<li><strong>Transmettre</strong> les chaînes de caractères avec la méthode <strong>PutString</strong></li>
 			</ol>
-			<hr/>
+			<hr>
+			<p>Exemple</p>
+			<em>
+				float valeur = 0;<br>	
+				ELCD162 lcd = new ELCD162();<br>
+				Lcd.Init(); Lcd.ClearScreen(); Lcd.CursorOff();<br>
+				<br>
+				while(true)<br>
+				{<br>
+				valeur = valeur + 0.11;<br>
+				lcd.PutString("Temperature = " + valeur.Tostring("F1"));<br>
+				 Thread.Sleep(100);<br>	
+				}
+			</em>
+			<hr>
 			<p><strong>Constructeurs</strong></p>
 			<table>
 				<tr>
@@ -268,12 +282,16 @@
 					<td><strong>void PutString</strong>(<strong>string</strong> <em>text</em>)</td>
 					<td>
 						<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés conformément
-						à la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>
-						Exemple 1: <br><em>lcd.PutString("Afficheur");</em><br/><br/>
-						Exemple 2: <br>
-						<em>float temperature = 0;</em><br>	
-						<em>lcd.PutString("Temperature = " + temperature);</em>
-
+						à la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>						Exemple 1: <br><em>lcd.PutString("Afficheur");</em><br/><br/> Exemple 2: <br>
+						<em>
+							float temperature = 0;<br>	
+							ELCD162 lcd = new ELCD162();<br>
+							while(true)<br>
+							{<br>
+							temperature =<br>
+							lcd.PutString("Temperature = " + temperature);<br>
+						}
+					</em>
 					</td>
 				</tr>
 				<tr>
