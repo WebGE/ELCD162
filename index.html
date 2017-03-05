@@ -226,7 +226,7 @@
 					<td><strong>ELCD162</strong>()</td>
 					<td>
 						Instancie un objet "Afficheur LCD série" avec les paramètres: <strong>COM2, 19200b/s, pas de parité, 8bits, 1 bit de stop</strong>.<br>
-						Exemple: <br/><em>ELCD162 lcd = new ELCD162();</em>
+						<strong>Exemple</strong> <br/><em>ELCD162 lcd = new ELCD162();</em>
 					</td>
 				</tr>
 				<tr>
@@ -254,27 +254,27 @@
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>void ClearScreen</strong>()</td>
 					<td>
-						<strong>Efface</strong> le LCD et positionne le curseur en (0,0).<br/><br/> Exemple: <br><em>lcd.ClearScreen();</em>
+						<strong>Efface</strong> le LCD et positionne le curseur en (0,0).<br/><br/> <strong>Exemple</strong> <br><em>lcd.ClearScreen();</em>
 					</td>
 				</tr>
 				<tr>
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>void CursorOff</strong>()</td>
 					<td>
-						<strong>Désactivation</strong> du curseur.<br/><br/> Exemple: <br><em>lcd.CursorOff();</em>
+						<strong>Désactivation</strong> du curseur.<br/><br/> <strong>Exemple</strong> <br><em>lcd.CursorOff();</em>
 					</td>
 				</tr>
 				<tr>
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>void CursorOn</strong>()</td>
 					<td>
-						<strong>Activation</strong> du curseur.<br/><br/> Exemple: <br><em>lcd.CursorOn();</em>
+						<strong>Activation</strong> du curseur.<br/><br/> <strong>Exemple</strong> <br><em>lcd.CursorOn();</em>
 					</td>
 				</tr>
 				<tr>
 					<td><img src="images/Method_16x.png"></td>
 					<td><strong>void Init</strong>()</td>
-					<td><strong>Initialisation</strong> de l'afficheur. <br> Toute première méthode à appliquer ! <br/><br/> Exemple: <br><em>lcd.Init();	</em>
+					<td><strong>Initialisation</strong> de l'afficheur. <br> Toute première méthode à appliquer ! <br/><br/> <strong>Exemple</strong><br><em>lcd.Init();</em>
 					</td>
 				</tr>
 				<tr>
@@ -283,8 +283,8 @@
 					<td>
 						<strong>Transmet</strong> une chaîne de caractères au LCD.<br><strong>text:</strong> chaîne de caractères codés conformément
 						à la <a href="https://www.sparkfun.com/datasheets/LCD/HD44780.pdf" target="_blank">table du processeur HD44780</a><br/><br/>
-						Exemple 1 <br><em>lcd.PutString("Afficheur");</em><br/><br/>
-						Exemple 2 <br><em>lcd.PutString("Temperature = " + valeur.Tostring("F1"));</em>					
+						<strong>Exemple 1</strong> <br><em>lcd.PutString("Afficheur");</em><br/><br/>
+						<strong>Exemple 2</strong> <br><em>lcd.PutString("Temperature = " + valeur.Tostring("F1"));</em>
 					</td>
 				</tr>
 				<tr>
@@ -292,7 +292,8 @@
 					<td><strong>void SetCursor</strong>(<strong>byte</strong> <em>x</em>, <strong>byte</strong> <em>y</em>)</td>
 					<td>
 						<strong>Place le curseur</strong> à la position définie par x (0 à 19 suivant le nombre de caractères de l'écran)
-						<br> et y (0 à 3 suivant le nombre de lignes).<br> Si x=0 et y=0 le curseur sera situé en haut à gauche de l'écran.<br/><br/>						Exemple: <br><em>lcd.SetCursor(0,1);</em> // Curseur sur le premier caractère de la deuxième ligne.
+						<br> et y (0 à 3 suivant le nombre de lignes).<br> Si x=0 et y=0 le curseur sera situé en haut à gauche de l'écran.<br/><br/>
+						<strong>Exemple</strong> <br><em>lcd.SetCursor(0,1);</em> // Curseur sur le premier caractère de la deuxième ligne.
 					</td>
 				</tr>
 			</table>
