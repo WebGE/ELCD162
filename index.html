@@ -201,21 +201,21 @@
 			</ol>
 			<hr>
 			<p><strong>Exemple</strong></p>
-			<em>
-				public static void Main()<br>
-        		{ <br>
-				float valeur = 0;<br>	
-				ELCD162 lcd = new ELCD162();<br>
-				Lcd.Init(); Lcd.ClearScreen(); Lcd.CursorOff();<br>
-				<br>
-				while(true)<br>
-				{<br>
-				valeur = valeur + 0.11;<br>
-				lcd.PutString("Temperature = " + valeur.Tostring("F1"));<br>
-				Thread.Sleep(100);<br>	
-				}<br>
-				}
-			</em>
+			<pre>
+public static void Main()
+{ 
+	float valeur = 0;
+	ELCD162 lcd = new ELCD162();
+	Lcd.Init(); Lcd.ClearScreen(); Lcd.CursorOff();
+
+	while(true)
+	{
+		valeur = valeur + 0.11;
+		lcd.PutString("Temperature = " + valeur.Tostring("F1"));
+		Thread.Sleep(100);	
+	}
+}
+			</pre>
 			<hr>
 			<p><strong>Constructeurs</strong></p>
 			<table>
