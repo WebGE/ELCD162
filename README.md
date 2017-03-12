@@ -19,4 +19,4 @@ This class is for a ELCD162 module.
 <hr>
 See <a href="http://webge.github.io/ELCD162/" target="_blank">ELCD162 GitHub Pages</a> too get started.
 
-Maintened by <a href="mailto:philippemariano@gmail.com">Philippe Mariano</a>
+Maintened by <a href="mailto:philippemariano@gmail.com">WebGE</a>
