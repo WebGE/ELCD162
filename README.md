@@ -24,12 +24,12 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <strong> Visual Studio solution</strong>
 -------------------------------------
 <ul>
-<li><strong>MD25</strong>
+<li><strong>ELCD162</strong>
 <ul>
-<li><strong>MD25</strong> : .NetMF class</li>
+<li><strong>ELCD162</strong> : .NetMF class</li>
 <img src="img/ELCD162.png" />
-<li><strong>Netduino</strong> : class test program for Netduino board</li>
-<li><strong>FezPanda</strong> : class test program for Fez Panda board</li>
+<li><strong>Netduino</strong> : class test program for Netduino board (to come up)</li>
+<li><strong>FezPanda</strong> : class test program for Fez Panda board (to come up)</li>
 </ul>
 </li>
 </ul>
