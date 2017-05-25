@@ -27,6 +27,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 <li><strong>MD25</strong>
 <ul>
 <li><strong>MD25</strong> : .NetMF class</li>
+<img src="img/ELCD162.png" />
 <li><strong>Netduino</strong> : class test program for Netduino board</li>
 <li><strong>FezPanda</strong> : class test program for Fez Panda board</li>
 </ul>
