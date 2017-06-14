@@ -40,7 +40,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
 <strong>Videos to see on youtube</strong>
 -------------------
-To come up
+None
 
 <strong>Keywords</strong>
 ----------------------------
@@ -49,6 +49,10 @@ I²C Bus, Motor Drive, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 <strong>Tested on</strong>
 -------------------
 Fez Panda III, Netduino plus 2
+
+<strong>Todo list</strong>
+-------------------
+Custom character
 
 <strong>To get started</strong>
 --------------------
