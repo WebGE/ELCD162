@@ -46,7 +46,7 @@ None
 
 <strong>Keywords</strong>
 ----------------------------
-I²C Bus, Motor Drive, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
+RS232, COMFILE Module, LCD, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
 <strong>Tested on</strong>
 -------------------
