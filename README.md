@@ -58,7 +58,7 @@ Custom characters
 
 <strong>To get started</strong>
 --------------------
-See <a href="http://webge.github.io/ELCD162/" target="_blank">MD25 GitHub Page</a> (in French).
+See <a href="http://webge.github.io/ELCD162/" target="_blank">ELCD162 GitHub Page</a> (in French).
 
 <strong>Wiki</strong>
 --------------------
