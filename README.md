@@ -8,6 +8,8 @@ A <strong>.NETMF v4.3 class</strong> write for ELCD162 module.
 
 This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
 
+ <img src="img/nuget.JPG" align="center" />
+ 
 <strong>Hardware</strong>
 ---------------------
 <strong> Targets </strong>: Netduino, Netduino plus 2, Netduino 3, FEZ PANDA 3 et COBRA 3.
