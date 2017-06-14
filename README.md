@@ -36,7 +36,7 @@ This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoo
 
 <strong>Assembly</strong>
 --------------------------
-To come up
+<img src="img/ELCD162.jpg" />
 
 <strong>Videos to see on youtube</strong>
 -------------------
