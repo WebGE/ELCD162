@@ -54,7 +54,7 @@ Fez Panda III, Netduino plus 2
 
 <strong>Todo list</strong>
 -------------------
-Custom character
+Custom characters
 
 <strong>To get started</strong>
 --------------------
