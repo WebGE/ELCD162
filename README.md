@@ -1,75 +1,69 @@
 # ELCD162
 
-<strong>Description</strong>
-----------------------------
+**Description**
+----
 Source code.
 
-A <strong>.NETMF v4.3 class</strong> write for ELCD162 module. 
+A **.NETMF v4.3 class** write for ELCD162 module.
 
-This class is also in the <a href="https://www.nuget.org/packages/WEBGE.Microtoolskit/" target="_blank">MicroToolsKit</a> <strong>library</strong>. Download at <a href="https://www.nuget.org" target="_blank">nuget.com</a>
+This class is also in the [MicroToolsKit]("https://www.nuget.org/packages/WEBGE.Microtoolskit/") **library**. Download at [nuget.com]("https://www.nuget.org").
 
- <img src="img/nuget.JPG" align="center" />
+ ![](img/nuget.JPG)
  
-<strong>Hardware</strong>
----------------------
-<strong> Targets </strong>: Netduino, Netduino2 plus, Netduino 3, FEZ PANDA 3 et COBRA 3.
+**Hardware**
+----
+**Targets**: Netduino, Netduino2 plus, Netduino 3, FEZ PANDA 3 et COBRA 3.
 
-<strong>Software</strong>
----------------------
-<ul>
-<li><strong>Language</strong> : C#</li>
-<li><strong>Framework used</strong> : .NETMF 4.3</li>
-<li><strong>IDE</strong> : Visual Studio Community 2015</li>
-<li><strong>xml</strong> : documentation inside class </li> 
-</ul>
+**Software**
+----
+* **Language** : C#
+* **Framework used** : .NETMF 4.3
+* **IDE** : Visual Studio Community 2015
+* **xml** : documentation inside class  
 
-<strong> Visual Studio solution</strong>
--------------------------------------
-<ul>
-<li><strong>ELCD162</strong>
-<ul>
-<li><strong>ELCD162</strong> : .NetMF class</li>
-<img src="img/ELCD162.png" />
-<li><strong>Netduino</strong> : class test program for Netduino board</li>
-<li><strong>FezPanda</strong> : class test program for Fez Panda board</li>
-</ul>
-</li>
-</ul>
+**Visual Studio solution**
+----
+* **ELCD162**
 
-<strong>Assembly</strong>
---------------------------
-<img src="img/ELCD162.jpg" />
+  * **ELCD162** : .NetMF class
+![](img/ELCD162.png)
+* **Netduino** : class test program for Netduino board
+* **FezPanda** : class test program for Fez Panda board
 
-<strong>Videos to see on youtube</strong>
--------------------
+**Assembly**
+----
+![](img/ELCD162.jpg)
+
+**Videos to see on youtube**
+----
 None
 
-<strong>Keywords</strong>
-----------------------------
+**Keywords**
+----
 RS232, COMFILE Module, LCD, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studio.
 
-<strong>Tested on</strong>
--------------------
+**Tested on**
+----
 Fez Panda III, Netduino2 plus
 
-<strong>Todo list</strong>
--------------------
+**Todo list**
+----
 Custom characters
 
-<strong>To get started</strong>
---------------------
+**To get started**
+----
 - <a href="http://webge.github.io/ELCD162/" target="_blank">ELCD162 GitHub Page</a> (in French).
 
-<strong>Feed on Google+</strong>
---------------------
-- <a href="https://plus.google.com/collection/oaaJX" target="_blank">C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ</a> (in French).
+**Feed on Google+**
+----
+* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ (French)](https://plus.google.com/collection/oaaJX).
 
-<strong>Wiki</strong>
---------------------
-- <a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ</a> (in French).
+**Wiki**
+----
+* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf) (French).
 
-<strong>Project site</strong>
---------------------
-- <a href ="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit" target="_blank">MicroToolsKit library</a> (in English).
-<hr>
-<strong>Maintened by</strong> <a href="mailto:philippemariano@gmail.com">WebGe</a>
+**Project site**
+----
+* [MicroToolsKit library](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit) (English).
+#
+**Maintened by** [WebGe](mailto:philippemariano@gmail.com)
