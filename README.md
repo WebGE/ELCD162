@@ -52,7 +52,7 @@ Custom characters
 
 **To get started**
 ----
-- <a href="http://webge.github.io/ELCD162/" target="_blank">ELCD162 GitHub Page</a> (in French).
+* [ELCD162 GitHub Page (French)](http://webge.github.io/ELCD162/).
 
 **Feed on Google+**
 ----
