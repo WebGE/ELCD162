@@ -6,7 +6,7 @@ Source code.
 
 A **.NETMF v4.3 class** write for ELCD162 module.
 
-This class is also in the [MicroToolsKit]("https://www.nuget.org/packages/WEBGE.Microtoolskit/") **library**. Download at [nuget.org](https://www.nuget.org).
+This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.org](https://www.nuget.org).
 
  ![](img/nuget.JPG)
  
@@ -52,11 +52,7 @@ Custom characters
 
 **To get started**
 ----
-<<<<<<< HEAD
 * [ELCD162 GitHub Page](http://webge.github.io/ELCD162/) (French).
-=======
-* [ELCD162 GitHub Page (French)](http://webge.github.io/ELCD162/).
->>>>>>> 45bfad5d02469be5e630760f4f63066338a752fd
 
 **Feed on Google+**
 ----
