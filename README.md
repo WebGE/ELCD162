@@ -6,7 +6,7 @@ Source code.
 
 A **.NETMF v4.3 class** write for ELCD162 module.
 
-This class is also in the [MicroToolsKit]("https://www.nuget.org/packages/WEBGE.Microtoolskit/") **library**. Download at [nuget.com]("https://www.nuget.org").
+This class is also in the [MicroToolsKit]("https://www.nuget.org/packages/WEBGE.Microtoolskit/") **library**. Download at [nuget.org](https://www.nuget.org).
 
  ![](img/nuget.JPG)
  
@@ -24,8 +24,8 @@ This class is also in the [MicroToolsKit]("https://www.nuget.org/packages/WEBGE.
 **Visual Studio solution**
 ----
 * **ELCD162**
-
   * **ELCD162** : .NetMF class
+
 ![](img/ELCD162.png)
 * **Netduino** : class test program for Netduino board
 * **FezPanda** : class test program for Fez Panda board
@@ -52,11 +52,11 @@ Custom characters
 
 **To get started**
 ----
-- <a href="http://webge.github.io/ELCD162/" target="_blank">ELCD162 GitHub Page</a> (in French).
+* [ELCD162 GitHub Page](http://webge.github.io/ELCD162/) (French).
 
 **Feed on Google+**
 ----
-* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ (French)](https://plus.google.com/collection/oaaJX).
+* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ](https://plus.google.com/collection/oaaJX) (French).
 
 **Wiki**
 ----
