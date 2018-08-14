@@ -52,7 +52,11 @@ Custom characters
 
 **To get started**
 ----
+<<<<<<< HEAD
 * [ELCD162 GitHub Page](http://webge.github.io/ELCD162/) (French).
+=======
+* [ELCD162 GitHub Page (French)](http://webge.github.io/ELCD162/).
+>>>>>>> 45bfad5d02469be5e630760f4f63066338a752fd
 
 **Feed on Google+**
 ----
