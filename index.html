@@ -23,7 +23,9 @@
 				</strong> développée en C# sous .NETMF 4.3 pour les cartes Netduino et FEZ (PANDA, COBRA...)</h2>
 			<section id="downloads">
 				<a class="zip_download_link" href="https://github.com/WebGE/ELCD162/zipball/master">Download this project as a .zip file</a>
-				<a class="tar_download_link" href="https://github.com/WebGE/ELCD162/tarball/master">Download this project as a tar.gz file</a>
+				<a class="tar_download_link" href="https://github.com/WebGE/ELCD162/tarball/master">Download this project as a tar.gz
+					file
+				</a>
 			</section>
 		</header>
 	</div>
@@ -65,12 +67,15 @@
 				<li>LES FASCICULES
 					<ol>
 						<li>
-							<a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">Exemples codés en C# pour les cartes Netduino et Fez (Panda 3, BrainPad)</a>
+							<a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf" target="_blank">Exemples codés
+								en C# pour les cartes Netduino et Fez (Panda 3, BrainPad)</a>
 						</li>
 					</ol>
 				</li>
 				<li>
-					<a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit" target="_blank">La page du projet MicroToolsKit</a>
+					<a href="http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:6_microtoolskit" target="_blank">La page du projet
+						MicroToolsKit
+					</a>
 				</li>
 			</ol>
 			<hr>
@@ -84,15 +89,16 @@
 				</li>
 				<p>Cet afficheur LCD "OEM" à commandes séries est composé d'un afficheur LCD standard associé à une platine pouvant être
 					commandée par un microcontrôleur au moyen d'ordres transmis en série (
-					<strong>8 bits - sans parité - 1 bit de stop - débit binaire 19200b/s ou 4800 b/s</strong>). L'afficheur (à processeur Hitachi)
-					dispose d'un réglage de contraste au moyen d'un potentiomètre présent sur la platine de commande.</p>
+					<strong>8 bits - sans parité - 1 bit de stop - débit binaire 19200b/s ou 4800 b/s</strong>). L'afficheur (à processeur
+					Hitachi) dispose d'un réglage de contraste au moyen d'un potentiomètre présent sur la platine de commande.</p>
 				<p align="center">
 					<img src="http://www.lextronic.fr/imagelib/15/elcd162a.jpg" alt="">
 				</p>
 				<li>
 					<strong>Alimentation</strong>: 5V</li>
 				<li>
-					<strong>Commande</strong> : liaison série asynchrone 8 bits - sans parité - 1 bit de stop - débit binaire 19200b/s ou 4800 b/s</li>
+					<strong>Commande</strong> : liaison série asynchrone 8 bits - sans parité - 1 bit de stop - débit binaire 19200b/s ou
+					4800 b/s</li>
 				<li>
 					<strong>Dimensions</strong>: 80mm x 36mm</li>
 				<li>
@@ -236,7 +242,7 @@
 			<h4 id="REP">2.1 Contenu du répertoire proposé au téléchargement</h4>
 			<hr>
 			<p>Le répertoire proposé au téléchargement (au format zip ou tar.gz) contient la solution
-				<strong>NetduinoELCD162</strong> composée :
+				<strong>ELCD162</strong> composée :
 			</p>
 			<ul>
 				<li>Du projet
@@ -244,12 +250,14 @@
 					<strong>code source</strong> de la classe
 					<em>ELCD162</em>.</li>
 				<li>Du projet
-					<strong>TestELCD_162</strong> : un exemple d'utilisation de cette classe.</li>
+					<strong>Netduino</strong> : un exemple d'utilisation de cette classe avec une carte Netduino.</li>
+				<li>Du projet
+					<strong>FezPanda</strong> : un exemple d'utilisation de cette classe avec une carte Panda III.</li>
 			</ul>
 			<hr>
 
 			<h4 id="NUGET">2.2 Le NuGet MicroToolsKit</h4>
-			<p>La dernière version La dernière version
+			<p>La dernière version
 				<strong>compilée</strong> de la classe
 				<strong>ELCD162</strong> se situe dans la bibliothèque
 				<strong>MicroToolsKit</strong> disponible sur
@@ -320,7 +328,7 @@
 					<strong>ajouter</strong> l'assembly
 					<strong>MicroToolsKit</strong> (disponible sur
 					<a href="https://www.nuget.org/packages/WebGE.MicroToolsKit/" target="_blank">nuget.org</a>) dans le répertoire
-					<em>Références</em> du projet.(clic droit sur
+					<em>Références</em> du projet (clic droit sur
 					<em>Références</em> puis
 					<em>Gérer les packages NuGet...</em>)</li>
 				<li>
@@ -343,8 +351,15 @@
 				<strong>Exemple</strong>
 			</p>
 			<pre>
-public static void Main()
-{ 
+using System.Threading;
+using Microtoolskit.Hardware.Displays;
+
+namespace TestNetduinoELCD_162
+{
+ public class Program
+ {
+  public static void Main()
+  { 
 	float valeur = 0;
 	ELCD162 lcd = new ELCD162();
 	Lcd.Init(); Lcd.ClearScreen(); Lcd.CursorOff();
@@ -355,6 +370,8 @@ public static void Main()
 		lcd.PutString("Temperature = " + valeur.Tostring("F1"));
 		Thread.Sleep(100);	
 	}
+  }
+ }
 }
 			</pre>
 			<hr>
