@@ -37,7 +37,7 @@ This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.M
 
 ## Videos
 
-to come up
+To see on [Youtube](https://youtu.be/_ok8rHgtsDo)
 
 ## Keywords
 
@@ -47,7 +47,7 @@ RS232, COMFILE Module, LCD, Netduino, FEZ, PANDA, COBRA, C#, NETMF, Visual Studi
 
 Fez Panda III, Netduino2 plus
 
-## Todo list*
+## Todo list
 
 Custom characters
 
