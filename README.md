@@ -62,7 +62,7 @@ Custom characters
 
 ## Wiki
 
-* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf)(French).
+* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf) (French).
 
 ## Project site
 
