@@ -4,7 +4,7 @@
 
 Source code.
 
-A **.NETMF v4.3 class** write for ELCD162 module.
+A **.NETMF v4.4 class** write for ELCD162 module.
 
 This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.Microtoolskit/) **library**. Download at [nuget.org](https://www.nuget.org).
 
@@ -17,7 +17,7 @@ This class is also in the [MicroToolsKit](https://www.nuget.org/packages/WEBGE.M
 ## Software
 
 * **Language** : C#
-* **Framework used** : .NETMF 4.3
+* **Framework used** : .NETMF 4.4
 * **IDE** : Visual Studio Community 2015
 * **xml** : documentation inside class  
 
@@ -56,13 +56,9 @@ Custom characters
 
 * [ELCD162 GitHub Page](http://webge.github.io/ELCD162/) (French).
 
-## Feed on Google+
-
-* [C# embarqué et .NetMF v4.3 : Netduino et GHI FEZ](https://plus.google.com/collection/oaaJX) (French).
-
 ## Wiki
 
-* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](http://webge.dyndns-server.com/dokuwiki/doku.php?id=netmf43:accueilnetmf) (French).
+* [C# embarqué et .NetMF v4.3 pour les cartes Netduino et GHI FEZ](https://webge.fr/dokuwiki/doku.php?id=archives:netmf43:accueilnetmf) (French).
 
 ## Project site
 
